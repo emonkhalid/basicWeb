@@ -1,0 +1,97 @@
+Files: 1.index.html  2.style.css
+
+--------------index.html-------------
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="style.css"/>
+
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="row-1">
+        <div class="col-1">
+          <p>Column 1</p>
+        </div>
+        <div class="col-11">
+          <p>Column 11</p>
+        </div>
+      </div>
+
+      <div class="row-2">
+        <div class="col-10">
+          <p>Column 10</p>
+        </div>
+        <div class="col-2">
+          <p>Column 2</p>
+        </div>
+      </div>
+
+      <div class="row-3">
+        <div class="col-3">
+          <p>Column 3</p>
+        </div>
+        <div class="col-9">
+          <p>Column 9</p>
+        </div>
+      </div>
+
+      <div class="row-4">
+        <div class="col-8">
+          <p>Column 8</p>
+        </div>
+        <div class="col-4">
+          <p>Column 4</p>
+        </div>
+      </div>
+
+      <div class="row-5">
+        <div class="col-7">
+          <p>Column 7</p>
+        </div>
+        <div class="col-5">
+          <p>Column 5</p>
+        </div>
+      </div>
+
+      <div class="row-4">
+        <div class="col-6">
+          <p>Column6</p>
+        </div>
+        <div class="col-6">
+          <p>Column 6</p>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
+
+
+--------------- style.css -----------------
+
+
+[class*='col-']{
+  height: 100px;
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid;
+}
+
+.col-1{ width: 8.33%; background-color:#ffe6e6; }
+.col-2{ width: 16.66%; background-color:#ffcccc;}
+.col-3{ width: 25%; background-color:#ffb3b3;}
+.col-4{ width: 33.33%; background-color:#ff9999; }
+.col-5{ width: 41.66%; background-color:#ff8080;}
+.col-6{ width: 50%; background-color:#ff6666; }
+.col-7{ width: 58.33%; background-color:#ff4d4d;}
+.col-8{ width: 66.66%; background-color:#ff3333;}
+.col-9{ width: 75%; background-color:#ff1a1a;}
+.col-10{ width: 83.33%; background-color:#ff0000;}
+.col-11{ width: 91.66%; background-color:#e60000;}
+.col-12{ width: 100%; background-color:#b30000;}
